@@ -18,7 +18,7 @@ const Navbar = () => {
 							<span>
 								<Logo />
 							</span>
-							<span className="text-[#5f5f5f] font-bold text-2xl">
+							<span className="text-[#5f5f5f] font-bold text-lg sm:text-xl md:text-2xl">
 								TMSL Student
 							</span>
 						</a>
@@ -59,8 +59,8 @@ const Navbar = () => {
 				)}
 				{/* <XIcon className="h-10 w-10 cursor-pointer sm:hidden text-[#5f5f5f]" /> */}
 				{isOpen && (
-					<div className="bg-opacity-95 sm:hidden absolute w-11/12 left-1/2 -translate-x-1/2 top-24 py-8 bg-[#fbfbfb] rounded-md shadow-2xl z-40 backdrop-filter backdrop-blur-md">
-						<ul className="flex text-lg flex-col items-center space-y-6 ">
+					<div className="sm:hidden absolute w-11/12 left-1/2 -translate-x-1/2 top-24 py-8 bg-[#fbfbfb] rounded-md shadow-2xl z-40 backdrop-filter bg-opacity-95 backdrop-blur-md">
+						<ul className="flex text-lg flex-col items-center space-y-6">
 							<li className="w-full text-center">
 								<Link href="/">
 									<a onClick={toggleNav}>Notes</a>

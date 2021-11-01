@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar';
 
 export default function Home() {
 	return (
-		<div className="relative min-h-screen font-Roboto bg-[#fbfbfb]">
+		<div className="relative font-Roboto bg-[#fbfbfb]">
 			<Head>
 				<title>TMSL student</title>
 				<link

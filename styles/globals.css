@@ -3,3 +3,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+	html {
+		@apply scrollbar-thin overflow-y-scroll scrollbar-thumb-black scrollbar-track-white;
+	}
+}
