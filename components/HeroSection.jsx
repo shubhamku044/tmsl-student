@@ -3,7 +3,7 @@ import Link from 'next/link';
 const HeroSection = () => {
 	return (
 		<div>
-			<div className="mt-4 sm:items-center flex-col-reverse sm:flex-row max-w-5xl mx-auto px-4 flex justify-center sm:justify-between">
+			<div className="mt-10 mb-20 sm:items-center flex-col-reverse sm:flex-row max-w-5xl mx-auto px-4 flex justify-center sm:justify-between">
 				<div className="mt-8 md:mt-2 space-y-3">
 					<h1 className="font-bold text-3xl md:text-4xl text-[#5f5f5f] text-left">
 						L👀king for college study material?
@@ -17,8 +17,11 @@ const HeroSection = () => {
 								Get Notes
 							</a>
 						</Link>
-						<Link href="#">
-							<a className="text-[#4D44B7] bg-[#fbfbfb] font-normal text-lg py-2 px-6 rounded-md md:hover:bg-[#4D44B7] md:hover:text-[#fbfbfb] border-2 border-[#4D44B7] transition-all duration-300 ease-out">
+						<Link href="https://wa.link/2sxhcv">
+							<a
+								target="_blank"
+								className="text-[#4D44B7] bg-[#fbfbfb] font-normal text-lg py-2 px-6 rounded-md md:hover:bg-[#4D44B7] md:hover:text-[#fbfbfb] border-2 border-[#4D44B7] transition-all duration-300 ease-out"
+							>
 								Contact Me
 							</a>
 						</Link>

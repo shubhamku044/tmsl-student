@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import HeroSection from '../components/HeroSection';
 import Navbar from '../components/Navbar';
+import Notes from '../components/Notes';
 
 export default function Home() {
 	return (
@@ -35,6 +36,7 @@ export default function Home() {
 			</Head>
 			<Navbar />
 			<HeroSection />
+			<Notes />
 			<ul className="text-4xl max-w-6xl mx-auto px-2">
 				<li>Shubham Sharma</li>
 				<li>Shubham Sharma</li>
