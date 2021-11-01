@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import HeroSection from '../components/HeroSection';
 import Navbar from '../components/Navbar';
 
 export default function Home() {
@@ -33,7 +34,8 @@ export default function Home() {
 				<meta name="theme-color" content="#ffffff"></meta>
 			</Head>
 			<Navbar />
-			<ul className="text-4xl">
+			<HeroSection />
+			<ul className="text-4xl max-w-6xl mx-auto px-2">
 				<li>Shubham Sharma</li>
 				<li>Shubham Sharma</li>
 				<li>Shubham Sharma</li>
