@@ -32,7 +32,10 @@ const Notes = () => {
 										<td>Matrix and Determinants</td>
 										<td>
 											<Link href="https://drive.google.com/file/d/1UkPxKUgsrcjcHibwsPVuma0GoQXIYM6u/view?usp=sharing">
-												<a className="md:hover:underline text-[#4D44B7]">
+												<a
+													target="_blank"
+													className="md:hover:underline text-[#4D44B7]"
+												>
 													Click here
 												</a>
 											</Link>
@@ -42,7 +45,10 @@ const Notes = () => {
 										<td>Physics&#40;1st Sem&#41;</td>
 										<td>
 											<Link href="https://drive.google.com/file/d/1l3FVLteeEJ3L4Dnnfdpg3QrHrDEHegwa/view?usp=sharing">
-												<a className="md:hover:underline text-[#4D44B7]">
+												<a
+													target="_blank"
+													className="md:hover:underline text-[#4D44B7]"
+												>
 													Click here
 												</a>
 											</Link>
@@ -74,7 +80,10 @@ const Notes = () => {
 								Will upload more soon. If you have notes,&nbsp;
 							</span>
 							<Link href="https://wa.link/2sxhcv">
-								<a className="text-[#4D44B7] md:hover:underline transition-all duration-300 ease-in-out">
+								<a
+									target="_blank"
+									className="text-[#4D44B7] md:hover:underline transition-all duration-300 ease-in-out"
+								>
 									send here.
 								</a>
 							</Link>

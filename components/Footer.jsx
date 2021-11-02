@@ -26,14 +26,20 @@ const Footer = () => {
 							Build with 🖐&#40;Fingers&#41; by&nbsp;
 						</p>
 						<Link href="https://github.com/shubhamku044">
-							<a className="inline font-medium md:hover:text-[#4D44B7] transition-all duration-400 ease-in-out ">
+							<a
+								target="_blank"
+								className="inline font-medium md:hover:text-[#4D44B7] transition-all duration-400 ease-in-out "
+							>
 								Noob Coder &#40;Shubham&#41;
 							</a>
 						</Link>
 					</div>
 					<div className="text-[#5f5f5f] font-semibold">
 						<Link href="https://github.com/shubhamku044/tmsl-student">
-							<a className="inline font-medium md:hover:text-[#4D44B7] transition-all duration-400 ease-in-out ">
+							<a
+								target="_blank"
+								className="inline font-medium md:hover:text-[#4D44B7] transition-all duration-400 ease-in-out "
+							>
 								<span>
 									{Data.forks_count}
 									<Fork className="h-4 sm:h-5 md:h-6 inline " />

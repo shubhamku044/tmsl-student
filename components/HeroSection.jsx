@@ -12,7 +12,7 @@ const HeroSection = () => {
 						Get free study material here.
 					</h2>
 					<div className="flex space-x-6">
-						<Link href="#">
+						<Link href="#notes">
 							<a className="text-[#fbfbfb] bg-[#4D44B7] font-normal text-lg py-2 px-6 rounded-md border-2 border-[#4D44B7] md:hover:animate-bounce">
 								Get Notes
 							</a>
