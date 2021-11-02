@@ -27,14 +27,14 @@ const Navbar = () => {
 				<div className="hidden sm:block">
 					<ul className="flex text-lg font-mediuim items-center space-x-8 text-[#5f5f5f]">
 						<li>
-							<Link href="#">
+							<Link href="#notes">
 								<a className="md:hover:text-[#4D44B7] transition-all duration-300 ease-in-out">
 									Notes
 								</a>
 							</Link>
 						</li>
 						<li>
-							<Link href="#">
+							<Link href="#about">
 								<a className="md:hover:text-[#4D44B7] transition-all duration-300 ease-in-out">
 									About
 								</a>
